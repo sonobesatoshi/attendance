@@ -1,0 +1,64 @@
+.attendance__alert--success {
+    padding: 10px 30px;
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    color: #0f5132;
+  }
+  
+  .attendance__alert--danger {
+    padding: 10px 0;
+    border-color: #f5c2c7;
+    background-color: #f6f5f5;
+    color: #842029;
+  }
+  
+  .attendance__alert--danger ul {
+    margin: 0;
+  }
+  
+  .attendance__panel {
+    margin: 30px auto 0;
+    width: 70%;
+  }
+
+  .form__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form__item {
+    width: 50%;
+    padding-bottom: 20px;
+    text-align: center;
+
+  }
+
+  .form__item-button {
+    width: 80%;
+    height: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+  }
+  
+  .attendance__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    background-color: #ddd;
+  }
+
+
+  
+  
+  .top__text {
+    text-align:center
+  }
+
+
+.alert-danger{
+  text-align: center;
+}
+
+.alert-success{
+  text-align: center;
+}

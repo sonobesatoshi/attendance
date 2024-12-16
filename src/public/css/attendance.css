@@ -1,0 +1,103 @@
+.attendance__content table {
+    flex: 1; /* 高さを伸ばして縦一杯にする */
+    margin-bottom: 30px; /* ページネーションとの間隔 */
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    border-top: 1px solid transparent; /* 上に線を非表示 */
+    border-bottom: 1px solid #000; /* 下に線 */
+}
+
+  .attendance__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 上下にコンテンツを配置 */
+}
+
+
+  .pagination{
+    padding: 100px 100px;
+    background-color: #ddd;
+  }
+
+  svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+  }
+
+  .date-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.arrow-link {
+    font-size: 24px;
+    color: #000; /* 必要に応じて色を変更 */
+    text-decoration: none;
+    padding: 0 20px; /* 矢印間のスペース */
+}
+
+.arrow-link:hover {
+    color: #007bff; /* ホバー時の色を変更 */
+}
+
+.current-date {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 4px;
+}
+
+.page-link {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.page-link:hover {
+  background-color: #e9ecef;
+  border-color: #ddd;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #fff;
+  border-color: #ddd;
+}

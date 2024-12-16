@@ -1,0 +1,19 @@
+{
+  "name": "attendance-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "laravel-mix": "^6.0.49"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
